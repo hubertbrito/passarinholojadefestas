@@ -21,6 +21,16 @@ import buffetDoces01 from "../assets/img/buffet-doces-01.webp";
 import buffetDocesSalgados02 from "../assets/img/buffet-doces-salgados-02.webp";
 import velasBiscuit01 from "../assets/img/velas-biscuit-01.webp";
 
+import decoracaoIgreja from "../assets/img/decoracao-igreja.webp";
+import casamento1 from "../assets/img/casamento1.webp";
+import casamento2 from "../assets/img/casamento2.webp";
+import toalhaOxfordCetim from "../assets/img/toalha-oxford-cetim1.webp";
+import velaBiscuit from "../assets/img/vela-biscuit.webp";
+import coleteJunino from "../assets/img/colete-junino3.webp";
+import vestidoQuadrilhaGirassol from "../assets/img/vestido-quadrilha-girassol.webp";
+import decoracaoFestaCasamento from "../assets/img/decoracao-festa-casamento.webp";
+
+
 
 export const produtos = [
   {
@@ -236,12 +246,85 @@ export const produtos = [
   },
   {
     id: 22,
-    nome: "Vestido juninoornamentado 3",
+    nome: "Vestido junino ornamentado 3",
     categoria: "Juninos e Fantasias",
     segmento: "Festa Junina",
     preco: 0,
     descricao:
       "Elegante vestido de quadrilha feminino, adornado com bordados de corações vibrantes, perfeito para brilhar na festa junina!",
     imagem: vestidojuninoornamentado03,
-  }
+  },
+  {
+    id: 23,
+    nome: "Decoração igreja",
+    categoria: "Casamentos",
+    segmento: "Decoração igreja",
+    preco: 0,
+    descricao: "Decoração elegante para igrejas, ideal para cerimônias de casamento inesquecíveis.",
+    imagem: decoracaoIgreja,
+  },
+  {
+    id: 24,
+    nome: "Casamento clássico",
+    categoria: "Casamentos",
+    segmento: "Decoração festas",
+    preco: 0,
+    descricao: "Itens clássicos e sofisticados para festas de casamento elegantes.",
+    imagem: casamento1,
+  },
+  {
+    id: 25,
+    nome: "Casamento temático",
+    categoria: "Casamentos",
+    segmento: "Decoração festas",
+    preco: 0,
+    descricao: "Conjunto temático para personalizar sua festa de casamento de forma única.",
+    imagem: casamento2,
+  },
+  {
+    id: 26,
+    nome: "Toalha em Oxford e Cetim",
+    categoria: "Toalhas",
+    segmento: "Decoração festas",
+    preco: 0,
+    descricao: "Toalhas elegantes de Oxford e Cetim, perfeitas para festas requintadas.",
+    imagem: toalhaOxfordCetim,
+  },
+  {
+    id: 27,
+    nome: "Vela de Biscuit",
+    categoria: "Velas de Biscuit",
+    segmento: "Decoração festas",
+    preco: 0,
+    descricao: "Vela artesanal de biscuit, perfeita para complementar a decoração da sua festa.",
+    imagem: velaBiscuit,
+  },
+  {
+    id: 28,
+    nome: "Colete Junino Masculino",
+    categoria: "Juninos e Fantasias",
+    segmento: "Festa Junina",
+    preco: 0,
+    descricao: "Colete masculino quadriculado e colorido, ideal para festas juninas animadas.",
+    imagem: coleteJunino,
+  },
+  {
+    id: 29,
+    nome: "Vestido de Quadrilha Girassol",
+    categoria: "Juninos e Fantasias",
+    segmento: "Festa Junina",
+    preco: 0,
+    descricao: "Vestido com babados e estampa de girassol, perfeito para quadrilhas juninas.",
+    imagem: vestidoQuadrilhaGirassol,
+  },
+  {
+    id: 30,
+    nome: "Decoração Festa Casamento",
+    categoria: "Casamentos",
+    segmento: "Decorações festas",
+    preco: 0,
+    descricao: "Decoração para festas de casamento memoráveis.",
+    imagem: decoracaoFestaCasamento,
+  },
+
 ];
