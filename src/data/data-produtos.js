@@ -16,6 +16,7 @@ import casamentoigreja03 from "../assets/img/casamento-igreja03.webp";
 import toalhas01 from "../assets/img/toalhas-01.webp";
 import coletejuninoquadriculadofantasia02 from "../assets/img/colete-junino-quadriculado-fantasia02.webp";
 import vestidoJuninoOrnamentado01 from "../assets/img/vestido-junino-ornamentado-01.webp";
+import vestidojuninoornamentado03 from "../assets/img/vestidojuninoornamentado03.webp";
 import buffetDoces01 from "../assets/img/buffet-doces-01.webp";
 import buffetDocesSalgados02 from "../assets/img/buffet-doces-salgados-02.webp";
 import velasBiscuit01 from "../assets/img/velas-biscuit-01.webp";
@@ -232,5 +233,15 @@ export const produtos = [
     descricao:
       "Velas de biscuit criativas: um toque único e divertido para enfeitar o bolo de aniversário",
     imagem: velasBiscuit01,
+  },
+  {
+    id: 22,
+    nome: "Vestido juninoornamentado 3",
+    categoria: "Juninos e Fantasias",
+    segmento: "Festa Junina",
+    preco: 0,
+    descricao:
+      "Elegante vestido de quadrilha feminino, adornado com bordados de corações vibrantes, perfeito para brilhar na festa junina!",
+    imagem: vestidojuninoornamentado03,
   }
 ];
