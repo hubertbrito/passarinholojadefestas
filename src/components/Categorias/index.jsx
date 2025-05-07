@@ -44,8 +44,8 @@ const Categorias = ({ handleFiltro, botaoClicado }) => {
         </button>
 
         <button
-          className={botaoClicado === "Bolo fake" ? "acenderBtn" : "apagarBtn"}
-          onClick={() => handleFiltro("Bolo fake")}
+          className={botaoClicado === "Bolo Fake" ? "acenderBtn" : "apagarBtn"}
+          onClick={() => handleFiltro("Bolo Fake")}
         >
           <img src={icone5} alt="ícone" />Bolo fake
         </button>

@@ -29,10 +29,68 @@ import velaBiscuit from "../assets/img/vela-biscuit.webp";
 import coleteJunino from "../assets/img/colete-junino3.webp";
 import vestidoQuadrilhaGirassol from "../assets/img/vestido-quadrilha-girassol.webp";
 import decoracaoFestaCasamento from "../assets/img/decoracao-festa-casamento.webp";
+import vestidoQuadriculado1 from "../assets/img/vestido-quadriculado-1.webp";
+import vestidoQuadriculado2 from "../assets/img/vestido-quadriculado-2.webp";
+import vestidoQuadriculado3 from "../assets/img/vestido-quadriculado-3.webp";
+import vestidoQuadriculado4 from "../assets/img/vestido-quadriculado-4.webp";
+import vestidoQuadriculado5 from "../assets/img/vestido-quadriculado-5.webp";
+import vestidoFlorido1 from "../assets/img/vestido-florido-1.webp";
+import vestidoFlorido2 from "../assets/img/vestido-florido-2.webp";
+import fantasiaCangaceiro from "../assets/img/fantasia_cangaceiro.webp";
+import avatarJunino from "../assets/img/avatar_junino.webp";
+import painelArraia from "../assets/img/painel_arraia.webp";
+
+
+import boloFake1 from "../assets/img/bolo_fake_1.webp";
+import painelMinnie from "../assets/img/painel_minnie.webp";
+import decorAnivPB from "../assets/img/decor_aniv_pb.webp";
+import vestidoQuadrilhaAzul from "../assets/img/vestido_quadrilha_azul.webp";
+import vestidoQuadrilhaVermelho from "../assets/img/vestido_quadrilha_vermelho.webp";
+import temaBrinquedos from "../assets/img/tema_brinquedos.webp";
+import vestidoQuadrilhaInfantil1 from "../assets/img/vestido_quadrilha_infantil_1.webp";
+import vestidoQuadrilhaInfantil2 from "../assets/img/vestido_quadrilha_infantil_2.webp";
+import vestidoQuadrilhaInfantil3 from "../assets/img/vestido_quadrilha_infantil_3.webp";
+import vestidoQuadrilhaInfantil5 from "../assets/img/vestido_quadrilha_infantil_5.webp";
+import decoracao001 from "../assets/img/decoracao_001.webp";
+import decorIgreja007 from "../assets/img/decor_igreja_007.webp";
+import decorNatal from "../assets/img/decor_natal.webp";
+import temaSertanejo from "../assets/img/tema_sertanejo.webp";
+import temaPolicial from "../assets/img/tema_policial.webp";
+import temaTomRosa from "../assets/img/tema_tom_rosa.webp";
+import temaBonecoListrado from "../assets/img/tema_boneco_listrado.webp";
+import temaCarroVermelhoBancoS from "../assets/img/tema_carro_vermelho_banco_s.webp";
+import temaBonecaAmarelaRosa from "../assets/img/tema_boneca_amarela_rosa.webp";
+import temaBolasColoridas from "../assets/img/tema_bolas_coloridas.webp";
+import coleteJuninonovo from "../assets/img/colete_junino.webp";
+import vestidoInfantilQuadrilhaEscolar from "../assets/img/vestido_infantil_quadrilha_escolar.webp";
+import temaHomemAranha from "../assets/img/tema_homem_aranha.webp";
+import canecaPainelRoblox from "../assets/img/caneca_painel_roblox.webp";
+import temaUnicornio from "../assets/img/tema_unicornio.webp";
+import temaUrsoAniversario from "../assets/img/tema_urso_aniversario.webp";
+import temaLingerie from "../assets/img/tema_lingerie.webp";
+import temaMesaBrancaCortinas from "../assets/img/tema_mesa_branca_cortinas.webp";
+import temaPequenaSereia from "../assets/img/tema_pequena_sereia.webp";
+import temaABC from "../assets/img/tema_abc.webp";
+import decoracaoRosaCasinhaMesa from "../assets/img/decoracao_rosa_casinha_mesa.webp";
+import temaPequi from "../assets/img/tema_pequi.webp";
+import tema_barbie from "../assets/img/tema_barbie.webp";
+import temaCapitaoAmerica from "../assets/img/tema_capitao_america.webp";
+import temaBordeiDoisParabens from "../assets/img/tema_bordei_dois_parabens.webp";
+import temaEstiloFinal from "../assets/img/painel_pokemon.webp";
+
 
 
 
 export const produtos = [
+  {
+    id: 0,
+    nome: "Vestido Quadriculado Tradicional 1",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido tradicional com padrão quadriculado, perfeito para festividades juninas.",
+    imagem: vestidoQuadriculado5,
+  },
   {
     id: 1,
     nome: "Dancing",
@@ -48,7 +106,7 @@ export const produtos = [
     id: 2,
     nome: "Piloto HotWheels",
     categoria: "Juninos e Fantasias",
-    segmento: "Pegue e monte",
+    segmento: "Fantasia",
     preco: 25.0,
     descricao:
       "Fantasia de piloto HotWheels, com macacão vibrante e detalhes autênticos, permite que os pequenos fãs se sintam como verdadeiros corredores de alta velocidade.",
@@ -57,8 +115,8 @@ export const produtos = [
   {
     id: 3,
     nome: "Bonecos Policiais",
-    categoria: "Decoração/peças",
-    segmento: "Nós montamos",
+    categoria: "Velas de Biscuit",
+    segmento: "Decoração bolos",
     preco: 24.25,
     descricao:
       "Bonecos temáticos policiais, com detalhes realistas e poses dinâmicas, perfeitos para adicionar um toque de ação à sua festa.",
@@ -66,9 +124,9 @@ export const produtos = [
   },
   {
     id: 4,
-    nome: "Fazenda",
+    nome: "Tema Fazenda",
     categoria: "Temas e Decorações",
-    segmento: "Nós montamos",
+    segmento: "Decoração festas",
     preco: 25.5,
     descricao:
       "Decoração temática de fazenda, com rodas de carroça, fogão a lenha e detalhes rústicos, transportando a criançada para um mundo de diversão campestre.",
@@ -146,7 +204,7 @@ export const produtos = [
   },
   {
     id: 12,
-    nome: "Colete junino fantasia",
+    nome: "Colete junino 1",
     categoria: "Juninos e Fantasias",
     segmento: "Festa junina",
     preco: 0,
@@ -156,7 +214,7 @@ export const produtos = [
   },
   {
     id: 13,
-    nome: "Casamento igreja 1",
+    nome: "Decoração igreja 1",
     categoria: "Casamentos",
     segmento: "Decoração igreja",
     preco: 0,
@@ -166,7 +224,7 @@ export const produtos = [
   },
   {
     id: 14,
-    nome: "Casamento igreja 2",
+    nome: "Decoração igreja 2",
     categoria: "Casamentos",
     segmento: "Decoração igreja",
     preco: 0,
@@ -176,7 +234,7 @@ export const produtos = [
   },
   {
     id: 15,
-    nome: "Casamento igreja 03",
+    nome: "Decoração igreja 3",
     categoria: "Casamentos",
     segmento: "Decoração igreja",
     preco: 0,
@@ -196,7 +254,7 @@ export const produtos = [
   },
   {
     id: 17,
-    nome: "Colete caipira",
+    nome: "Colete caipira 2",
     categoria: "Juninos e Fantasias",
     segmento: "Festa junina",
     preco: 0,
@@ -206,7 +264,7 @@ export const produtos = [
   },
   {
     id: 18,
-    nome: " Vestido Arraiá Fashion",
+    nome: " Vestido Arraiá Fashion 1",
     categoria: "Juninos e Fantasias",
     segmento: "Festa Junina",
     preco: 0,
@@ -236,7 +294,7 @@ export const produtos = [
   },
   {
     id: 21,
-    nome: "Vela de biscuit",
+    nome: "Vela de biscuit 2",
     categoria: "Velas de Biscuit",
     segmento: "Aniversário",
     preco: 0,
@@ -256,7 +314,7 @@ export const produtos = [
   },
   {
     id: 23,
-    nome: "Decoração igreja",
+    nome: "Decoração igreja 4",
     categoria: "Casamentos",
     segmento: "Decoração igreja",
     preco: 0,
@@ -265,7 +323,7 @@ export const produtos = [
   },
   {
     id: 24,
-    nome: "Casamento clássico",
+    nome: "Casamento clássico 1",
     categoria: "Casamentos",
     segmento: "Decoração festas",
     preco: 0,
@@ -274,7 +332,7 @@ export const produtos = [
   },
   {
     id: 25,
-    nome: "Casamento temático",
+    nome: "Decoração festa 3",
     categoria: "Casamentos",
     segmento: "Decoração festas",
     preco: 0,
@@ -292,7 +350,7 @@ export const produtos = [
   },
   {
     id: 27,
-    nome: "Vela de Biscuit",
+    nome: "Vela de Biscuit 3",
     categoria: "Velas de Biscuit",
     segmento: "Decoração festas",
     preco: 0,
@@ -301,7 +359,7 @@ export const produtos = [
   },
   {
     id: 28,
-    nome: "Colete Junino Masculino",
+    nome: "Colete Junino 3",
     categoria: "Juninos e Fantasias",
     segmento: "Festa Junina",
     preco: 0,
@@ -310,7 +368,7 @@ export const produtos = [
   },
   {
     id: 29,
-    nome: "Vestido de Quadrilha Girassol",
+    nome: "Vestido de Quadrilha Girassol 4",
     categoria: "Juninos e Fantasias",
     segmento: "Festa Junina",
     preco: 0,
@@ -319,12 +377,421 @@ export const produtos = [
   },
   {
     id: 30,
-    nome: "Decoração Festa Casamento",
+    nome: "Decoração Festa 1",
     categoria: "Casamentos",
     segmento: "Decorações festas",
     preco: 0,
     descricao: "Decoração para festas de casamento memoráveis.",
     imagem: decoracaoFestaCasamento,
   },
+  {
+    id: 31,
+    nome: "Vestido florido e rosa 5",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido florido e Rosa, ideal para festas juninas tradicionais.",
+    imagem: vestidoQuadriculado1,
+  },
+  {
+    id: 32,
+    nome: "Vestido Quadriculado Azul 6",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido azul com padronagem quadriculada, perfeito para danças juninas.",
+    imagem: vestidoQuadriculado2,
+  },
+  {
+    id: 33,
+    nome: "Vestido vermelho com quadriculado xadrez 7",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido com cores vibrantes e padrão quadriculado, ideal para quadrilhas animadas.",
+    imagem: vestidoQuadriculado3,
+  },
+  {
+    id: 34,
+    nome: "Vestido Quadriculado Tradicional 8",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido tradicional com padrão quadriculado, perfeito para festividades juninas.",
+    imagem: vestidoQuadriculado4,
+  },
+  {
+    id: 35,
+    nome: "Vestido Florido Delicado 9",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido florido com detalhes delicados, trazendo charme para festas juninas.",
+    imagem: vestidoFlorido1,
+  },
+  {
+    id: 36,
+    nome: "Vestido Florido Vibrante 12",
+    categoria: "Juninos e Fantasias",
+    segmento: "Vestidos",
+    preco: 0,
+    descricao: "Vestido com estampa floral vibrante, perfeito para quadrilhas animadas e alegres.",
+    imagem: vestidoFlorido2,
+  },
+  {
+    id: 37,
+    nome: "Fantasia Cangaceiro Sertanejo",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Gibão de couro adornado, chapéu de cangaceiro com fita e alpercatas. Ideal para quadrilhas e festas típicas!",
+    imagem: fantasiaCangaceiro,
+  },
+  {
+    id: 38,
+    nome: "Avatar Personalizado",
+    categoria: "Juninos e Fantasias",
+    segmento: "Personalizados",
+    preco: 0,
+    descricao: "Avatar junino! uma imagem divertida com trajes e cenários temáticos.",
+    imagem: avatarJunino,
+  },
+  {
+    id: 39,
+    nome: "Painel Decorativo Arraiá 1",
+    categoria: "Decoração/peças",
+    segmento: "Decoração",
+    preco: 0,
+    descricao: "Painel Junino alegre + canecas personalizadas com tema! Arraiá completo e charmoso. ",
+    imagem: painelArraia,
+  },
 
+
+  {
+    id: 40,
+    nome: "Bolo Fake Junino 1",
+    categoria: "Bolo Fake",
+    segmento: "Decoração",
+    preco: 0,
+    descricao: "Bolo cenográfico com  miniaturas de elementos ideal para sua mesa!",
+    imagem: boloFake1,
+  },
+  {
+    id: 43,
+    nome: "Painel Decorativo Minnie",
+    categoria: "Decoração/peças",
+    segmento: "Decoração",
+    preco: 0,
+    descricao: "Painel da Minnie, alegria contagiante da Disney!",
+    imagem: painelMinnie,
+  },
+  {
+    id: 44,
+    nome: "Decoração Aniversário CAM",
+    categoria: "Temas e Decorações",
+    segmento: "Decoração",
+    preco: 0,
+    descricao: "Elegância em preto e branco para sua festa! Balões, painel geométrico e detalhes sofisticados.",
+    imagem: decorAnivPB,
+  },
+  {
+    id: 45,
+    nome: "Vestido de Quadrilha Azul Decotado 15",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Vestido azul vibrante com rendas, fitas coloridas e decote charmoso. Para arrasar na quadrilha!",
+    imagem: vestidoQuadrilhaAzul,
+  },
+
+  {
+    id: 47,
+    nome: "Vestido de Quadrilha Vermelho e Branco 16",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Clássico vestido vermelho e branco estampa de coração com emfeite de flores, laços e detalhes encantadores para a festa junina.",
+    imagem: vestidoQuadrilhaVermelho,
+  },
+  {
+    id: 48,
+    nome: "Tema Festa com Brinquedos",
+    categoria: "Temas e Decorações",
+    segmento: "Temas",
+    preco: 0,
+    descricao: "Decoração alegre com brinquedos vintage, cores vibrantes e elementos lúdicos para uma festa divertida!",
+    imagem: temaBrinquedos,
+  },
+  {
+    id: 49,
+    nome: "Vestido de Quadrilha Infantil 1",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Vestido infantil charmoso com estampas florais, babadinhos e fitas coloridas. Sua pequena vai amar!",
+    imagem: vestidoQuadrilhaInfantil1,
+  },
+  {
+    id: 50,
+    nome: "Vestido de Quadrilha Infantil 2",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Vestido infantil delicado com detalhes em renda, laços e tecido leve para conforto na dança.",
+    imagem: vestidoQuadrilhaInfantil2,
+  },
+  {
+    id: 51,
+    nome: "Vestido de Quadrilha Infantil 3",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Vestido infantil alegre com patchwork, fitas e um toque especial para a quadrilha.",
+    imagem: vestidoQuadrilhaInfantil3,
+  },
+  {
+    id: 52,
+    nome: "Vestido de Quadrilha Infantil 5",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Vestido infantil vibrante com mangas bufantes, saia rodada e detalhes que encantam na festa junina.",
+    imagem: vestidoQuadrilhaInfantil5,
+  },
+  {
+    id: 53,
+    nome: "Decoração Festa Infantil 01",
+    categoria: "Temas e Decorações",
+    segmento: "Decoração festas",
+    preco: 0,
+    descricao: "Decoração infantil colorida e divertida para celebrar com alegria o dia especial! pássaros, borboletas, fadas.",
+    imagem: decoracao001,
+  },
+  {
+    id: 54,
+    nome: "Decoração igreja 5",
+    categoria: "Casamentos",
+    segmento: "Cerimônia",
+    preco: 0,
+    descricao: "Decoração elegante para igreja com flores delicadas, tapete e arranjos que celebram o amor.",
+    imagem: decorIgreja007,
+  },
+  {
+    id: 55,
+    nome: "Decoração Festa de Natal",
+    categoria: "Temas e Decorações",
+    segmento: "Natal",
+    preco: 0,
+    descricao: "Decoração natalina mágica com árvores, luzes, guirlandas e o espírito festivo do Natal.",
+    imagem: decorNatal,
+  },
+  {
+    id: 56,
+    nome: "Decoração Aniversário Sertanejo",
+    categoria: "Temas e Decorações",
+    segmento: "Sertanejo/Roça",
+    preco: 0,
+    descricao: "Decoração rústica e charmosa com elementos da fazenda, feno e madeira.",
+    imagem: temaSertanejo,
+  },
+  {
+    id: 57,
+    nome: "Tema Aniversário Polícia",
+    categoria: "Temas e Decorações",
+    segmento: "Policial",
+    preco: 0,
+    descricao: "Decoração temática com viaturas, distintivos e bolo fake para uma festa cheia de ação!",
+    imagem: temaPolicial,
+  },
+  {
+    id: 58,
+    nome: "Tema Aniversário Dog au au",
+    categoria: "Temas e Decorações",
+    segmento: "Desenho Animado",
+    preco: 0,
+    descricao: "Decoração delicada em tons de rosa com personagens fofinhos para uma festa encantadora.",
+    imagem: temaTomRosa,
+  },
+  
+  {
+    id: 60,
+    nome: "Tema Rep Bardei tiu iu",
+    categoria: "Temas e Decorações",
+    segmento: "Desenho Animado",
+    preco: 0,
+    descricao: "Decoração divertida, balões e alegria contagiante.",
+    imagem: temaBonecoListrado,
+  },
+  {
+    id: 61,
+    nome: "Tema Pokémon",
+    categoria: "Temas e Decorações",
+    segmento: "Infantil",
+    preco: 0,
+    descricao: "Decoração Pokémon com um carrinho vermelho em destaque, banquinho para os pequenos.",
+    imagem: temaCarroVermelhoBancoS,
+  },
+  {
+    id: 62,
+    nome: "Tema da garota abelha",
+    categoria: "Temas e Decorações",
+    segmento: "Infantil",
+    preco: 0,
+    descricao: "Decoração delicada da garota abelha em tons de amarelo e rosa, flores e detalhes encantadores.",
+    imagem: temaBonecaAmarelaRosa,
+  },
+  {
+    id: 63,
+    nome: "Tema bichinhos da floresta",
+    categoria: "Temas e Decorações",
+    segmento: "Festa infantil",
+    preco: 0,
+    descricao: "Decoração vibrante e alegre com muitos bichinhos para animar qualquer festa!",
+    imagem: temaBolasColoridas,
+  },
+  {
+    id: 64,
+    nome: "Colete de Festa Junina 5",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Colete estiloso com detalhes em retalhos. Complemento perfeito para seu traje junino!",
+    imagem: coleteJuninonovo,
+  },
+  {
+    id: 65,
+    nome: "Vestido de Quadrilha 18",
+    categoria: "Juninos e Fantasias",
+    segmento: "Fantasias",
+    preco: 0,
+    descricao: "Vestido com quadriculado vermelho e branco, prático e charmoso para apresentações de quadrilha. Conforto e beleza!",
+    imagem: vestidoInfantilQuadrilhaEscolar,
+  },
+  {
+    id: 66,
+    nome: "Tema Aniversário Homem-Aranha",
+    categoria: "Temas e Decorações",
+    segmento: "Super-Herói",
+    preco: 0,
+    descricao: "Decoração com o incrível Homem-Aranha, teias e arranha-céus para uma festa super divertida!",
+    imagem: temaHomemAranha,
+  },
+  {
+    id: 67,
+    nome: "Canecas e Painel Roblox",
+    categoria: "Decorações/peças",
+    segmento: "Games",
+    preco: 0,
+    descricao: "Decoração com canecas e painel temáticos do Roblox para os fãs desse universo virtual!",
+    imagem: canecaPainelRoblox,
+  },
+  {
+    id: 68,
+    nome: "Tema Unicórnio Aniversário ",
+    categoria: "Temas e Decorações",
+    segmento: "Boneca",
+    preco: 0,
+    descricao: "Decoração glamourosa com a Personagem animado, tons de rosa e acessórios charmosos para uma festa de princesa!",
+    imagem: temaUnicornio,
+  },
+  {
+    id: 69,
+    nome: "Tema Chapeuzinho vermelho",
+    categoria: "Temas e Decorações",
+    segmento: "Infantil",
+    preco: 0,
+    descricao: "Decoração fofa e aconchegante da Chapezinho Vermelho, balões e cores suaves.",
+    imagem: temaUrsoAniversario,
+  },
+  {
+    id: 70,
+    nome: "Tema Festa de Lingerie",
+    categoria: "Temas e Decorações",
+    segmento: "Evento",
+    preco: 0,
+    descricao: "Decoração sensual e elegante para uma festa de lingerie inesquecível!",
+    imagem: temaLingerie,
+  },
+  {
+    id: 71,
+    nome: "Decoração festa 2",
+    categoria: "Casamentos",
+    segmento: "Recepção",
+    preco: 0,
+    descricao: "Decoração clássica para festa de casamento com mesa branca elegante e cortinas fluidas.",
+    imagem: temaMesaBrancaCortinas,
+  },
+  {
+    id: 72,
+    nome: "Tema Aniversário Pequena Sereia",
+    categoria: "Temas e Decorações",
+    segmento: "Desenho Animado",
+    preco: 0,
+    descricao: "Decoração mágica com a Pequena Sereia, elementos do fundo do mar e cores vibrantes.",
+    imagem: temaPequenaSereia,
+  },
+  {
+    id: 73,
+    nome: "Tema ABC",
+    categoria: "Temas e Decorações",
+    segmento: "Formatura",
+    preco: 0,
+    descricao: "Decoração especial para formatura do ABC com cores alegres e elementos educativos.",
+    imagem: temaABC,
+  },
+  {
+    id: 74,
+    nome: "Decoração Peppa Pig",
+    categoria: "Temas e Decorações",
+    segmento: "Infantil",
+    preco: 0,
+    descricao: "Decoração Peppa Pig alegre e colorida para sua festa! Inclui painel, mesa, bonecos dos personagens e acessórios temáticos.",
+    imagem: decoracaoRosaCasinhaMesa,
+  },
+  {
+    id: 75,
+    nome: "Tema Happy Birthday",
+    categoria: "Temas e Decorações",
+    segmento: "Regional",
+    preco: 0,
+    descricao: "Decoração temática, clássica para aniversário.",
+    imagem: temaPequi,
+  },
+  {
+    id: 76,
+    nome: "Tema Barbie",
+    categoria: "Temas e Decorações",
+    segmento: "Humor",
+    preco: 0,
+    descricao: "Decoração Barbie glamourosa! Painel, mesa, bonecas da Barbie, acessórios pink e charmosos para uma festa de princesa inesquecível!",
+    imagem: tema_barbie,
+  },
+ 
+  {
+    id: 78,
+    nome: "Tema Capitão América",
+    categoria: "Temas e Decorações",
+    segmento: "Super-Herói",
+    preco: 0,
+    descricao: "Decoração heroica com o Capitão América, escudo e cores vibrantes para uma festa de super-herói!",
+    imagem: temaCapitaoAmerica,
+  },
+  {
+    id: 79,
+    nome: "Tema Aniversário Parabéns",
+    categoria: "Temas e Decorações",
+    segmento: "Mensagem",
+    preco: 0,
+    descricao: "Decoração com destaque para a mensagem 'Happy Birthday', cores festivas e balões.",
+    imagem: temaBordeiDoisParabens,
+  },
+  {
+    id: 80,
+    nome: "Decoração Pokémons amáveis",
+    categoria: "Decoração/peças",
+    segmento: "Variado",
+    preco: 0,
+    descricao: "Painel Pokémon AMAZING! Amáveis monstrinhos em alta resolução para sua festa. Acompanha caneca estilizada exclusiva!",
+    imagem: temaEstiloFinal,
+  },
 ];

@@ -20,17 +20,17 @@
   }
 
   .detalhes-cards {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 12px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .prop-segmento {
     color: rgb(154, 118, 28);
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
 
@@ -58,6 +58,29 @@
   .container-informacoes div:nth-child(2) {
     text-align: right;
     font-weight: 600;
+  }
+  .botao-whatsapp {
+    display: inline-block; /* Para que ocupe apenas o espaço necessário */
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+  }
+  
+  .botao-whatsapp:hover {
+    background-color: #128C7E; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  /* Opcional: Estilos para o container dos detalhes do card, se necessário */
+  .detalhes-cards {
+    display: flex;
+    justify-content: flex-end; /* Alinha o botão à direita */
+    align-items: center; /* Alinha verticalmente ao centro (se houver outros elementos) */
+    margin-top: 10px; /* Adiciona um pouco de espaço acima do botão */
   }
 
   @media (max-width: 768px){
