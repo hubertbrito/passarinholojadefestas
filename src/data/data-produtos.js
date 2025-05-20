@@ -87,6 +87,24 @@ import bentoEtoto from "../assets/img/bento-toto.webp";
 
 export const produtos = [
   {
+    id: 81,
+    nome: "Tema Homem Aranha 2",
+    categoria: "Temas e Decorações",
+    segmento: "Super heróis",
+    preco: 0,
+    descricao: "Celebre com o Aranha! Decoração com balões nas cores do herói, arranha-céus, vilões e um boneco gigante para fotos incríveis.",
+    imagem: temaHomemAranha2,
+  },
+   {
+    id: 82,
+    nome: "Tema Bento e Totó ",
+    categoria: "Temas e Decorações",
+    segmento: "Desenho animado",
+    preco: 0,
+    descricao: "Alegria garantida com a dupla Bento e Totó! Decoração divertida, com seus personagens favoritos para uma festa cheia de carinho.",
+    imagem: bentoEtoto,
+  },
+  {
     id: 0,
     nome: "Vestido Quadriculado Tradicional 1",
     categoria: "Juninos e Fantasias",
@@ -798,22 +816,4 @@ export const produtos = [
     descricao: "Painel Pokémon AMAZING! Amáveis monstrinhos em alta resolução para sua festa. Acompanha caneca estilizada exclusiva!",
     imagem: temaEstiloFinal,
   },
-  {
-    id: 81,
-    nome: "Tema Homem Aranha 2",
-    categoria: "Temas e Decorações",
-    segmento: "Super heróis",
-    preco: 0,
-    descricao: "Celebre com o Aranha! Decoração com balões nas cores do herói, arranha-céus, vilões e um boneco gigante para fotos incríveis.",
-    imagem:temaHomemAranha2,
-  },
-   {
-    id: 82,
-    nome: "Tema Bento e Totó ",
-    categoria: "Temas e Decorações",
-    segmento: "Desenho animado",
-    preco: 0,
-    descricao: "Alegria garantida com a dupla Bento e Totó! Decoração divertida, com seus personagens favoritos para uma festa cheia de carinho.",
-    imagem: bentoEtoto,
-  }
 ];
